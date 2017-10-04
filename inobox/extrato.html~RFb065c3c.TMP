@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Extrato bancario</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	
+</head>
+
+<body>
+		<header>
+			<div id="topo"></div>
+		</header>
+
+
+		<h3>Saldo de Conta Corrente</h3>
+
+		<ul>
+			<li><p class"right">Saldo de 10/07/2014 às 12:16:16h</p></li>
+		</ul>
+
+		<ul>
+			<li class="titulo">Descrição<span>Valor (R$)</span></li>
+			<li>DISPONIVEL P/ SAQUE<span>5.017,56</span></li>
+			<li>LIS (SUJEITO A ENCARGOS)<span>400,00 </span></li>
+			<li>TOTAL P/ SAQUE<span>5.417,00</span></li>
+		</ul>
+
+		<h3>Extrato</h3>
+
+		<ul>
+			<p>Filtrar por:</p>
+			<label>Período:</label>
+			<select>
+				<option>Últimos lançamentos</option>
+				<option>Últimos 3 dias</option>
+				<option>Últimos 5 dias</option>
+				<option>Últimos 7 dias</option>
+				<option>Últimos 15 dias</option>
+				<option>Últimos 30 dias</option>
+				<option>Últimos 60 dias</option>
+				<option>Últimos 90 dias</option>
+			</select>
+
+		</ul>
+
+
+		<ul>
+			<p class"right">Extrato de 03/07/2014 até 10/07/2014</p>
+
+			<p>Julho/2014</p>
+			<li><span class="data">Data</span><span class="lancamento">Lançamento</span><span class="valor">Valor (R$)</span><span class="saldo">Saldo (R$)</span></li>
+			<li><span class="data">02/07</span><span class="lancamento">SALDO ANTERIOR</span><span></span><span>797,85</span></li>
+			<li><span class="data">03/07</span><span class="lancamento">CXE 000646 SAQUE</span><span>30,00 	-</span><span>767,85</span></li>
+			<li><span class="data">07/07</span><span class="lancamento">CXE 000828 SAQUE 05/07</span><span>40,00 -</span><span></span></li>
+
+		</ul>
+
+		<ul>
+			<p>Posição da Conta Corrente</p>
+			<p class"right">Referente a 10/07/2014 às 12:16:16h</p>
+
+			
+
+		</ul>
+
+
+
+</body>

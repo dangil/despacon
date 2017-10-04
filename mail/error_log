@@ -1,0 +1,4 @@
+[12-Jun-2015 14:11:56 America/Sao_Paulo] PHP Warning:  include(email.class.php): failed to open stream: No such file or directory in /home/davys4/public_html/mail/mail.php on line 5
+[12-Jun-2015 14:11:56 America/Sao_Paulo] PHP Warning:  include(email.class.php): failed to open stream: No such file or directory in /home/davys4/public_html/mail/mail.php on line 5
+[12-Jun-2015 14:11:56 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'email.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/davys4/public_html/mail/mail.php on line 5
+[12-Jun-2015 14:35:35 America/Sao_Paulo] PHP Warning:  phpinfo() has been disabled for security reasons in /home/davys4/public_html/mail/mail.php on line 3

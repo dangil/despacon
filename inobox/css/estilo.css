@@ -1,0 +1,213 @@
+body {
+	margin:0;
+	padding:0;
+	font:11px Arial, Verdana, Geneva, sans-serif;
+}
+
+ul li {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, p, li, ul, form {
+	margin:0;
+	padding:0;	
+}
+
+img {
+	border:0;
+}
+
+header {
+	float: left;
+	width: 100%;
+}
+
+header #topo {
+	float: left;
+	width: 778px;
+	height: 124px;
+	background-image: url(../imagens/bg-Topo.jpg);
+	background-repeat: no-repeat;
+} 
+
+#AreaExtrato {
+	float: left;
+	width: 510px;
+	padding: 0 10px;
+}
+
+#AreaExtrato h3 {
+	float: left;
+	width: 100%;
+	color: #FF6600;
+	padding: 4px 0;
+}
+
+#AreaExtrato p {
+	float: left;
+	width: 100%;
+}
+
+#AreaExtrato ul {
+	float: left;
+	width: 100%;
+}
+
+#AreaExtrato ul p.right {
+	float: left;
+	width: 100%;
+	text-align: right;
+	font-weight: bold ;
+}
+
+#AreaExtrato ul li {
+	float:left;
+	width: 99%;
+	padding: 2px;
+}
+
+#AreaExtrato ul li.titulo {
+	border: 1px solid #C6C6C6;
+	background-image: url(../imagens/bg-titulos.jpg);
+	float: left;
+	padding: 2px;
+}
+
+#AreaExtrato ul li.titulo span {
+	float: right;
+	text-align: right;
+}
+
+
+#AreaExtrato ul li.outros span {
+	float: right;
+	text-align: right;
+}
+
+#AreaExtrato ul li.cinza {
+	background: #EFEFEF;
+}
+
+ul#extrato {
+	float: left;
+	width: 99%;
+	background:#EFEFEF;
+	padding: 10px 2px;
+}
+
+ul#extrato p {
+	font-weight: bold;
+}
+
+ul#extrato {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+ul.geral {
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+ul#extrato label {
+	float: left;
+	padding: 2px 2px 0 90px;
+}
+
+ul#extrato select {
+	font-size: 11px;
+	padding: 3px;
+}
+
+#AreaExtrato ul li.titulo2 {
+	border: 1px solid #C6C6C6;
+	background-image: url(../imagens/bg-titulos.jpg);
+	float: left;
+	padding: 2px;
+}
+
+#AreaExtrato ul li.titulo2 span {
+	float: left;
+	width: 110px;
+	font-weight: bold;
+}
+
+.right {
+	text-align: right;
+}
+
+#AreaExtrato ul li span {
+	float: left;
+	width: 110px;
+	min-height: 12px;
+}
+
+
+#AreaExtrato ul li span.lancamento {
+	width: 164px;
+}
+
+#AreaExtrato ul li span.valor {
+	color: #D90000;
+}
+
+#AreaExtrato ul.posicao li {
+	float: left;
+}
+
+#AreaExtrato ul.posicao li span {
+	text-align: right;
+	float: right;
+}
+
+h4 {
+	float: left;
+	width: 100%;
+	color: #73B644;
+	margin: 50px 0 0 0;
+}
+
+a.corlink {
+	color: #003399;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#opcoes {
+	float: left;
+	width: 240px;
+	border: 1px solid #ccc;
+	margin: 20px 0 0 0;
+}
+
+#opcoes p {
+	float: left;
+	width: 98%;
+	background-image: url(../imagens/bg-titulos.jpg);
+	background-repeat: repeat-x;
+	padding: 2px;
+	font-weight: bold;
+	color: #FE6406;
+	border-bottom: 1px solid #ccc;
+}
+
+#opcoes ul li {
+	float: right;
+	text-align: left;
+	width: 90%;
+	padding: 4px 0;
+	list-style: outside;
+}
+
+#opcoes ul li a {
+	float: left;
+	color: #111;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#opcoes ul li a:hover {
+	text-decoration: underline;
+}
+
+

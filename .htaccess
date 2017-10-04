@@ -1,0 +1,9 @@
+AddCharset UTF-8 .php
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^sheree\@despacon\.com\.br$ "http\:\/\/cleyton\@despacon\.com\.br\/" [R=301,L]

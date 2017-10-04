@@ -1,0 +1,125 @@
+#corpo {width:1000px; height:915px; margin:auto; position:relative;}
+#corpoDois {width:1000px; height:1003px; margin:auto; position:relative;}
+#corpoTres {width:1000px; height:1083px; margin:auto; position:relative;}
+
+#topo {width:100%; height:30px;}
+#topo form {width:310px; height:20px; line-height:20px; float:right; padding-top:3px;}
+#topo form div.inpBt {width:100px; height:22px; line-height:22px; background:#758992; border:1px solid #A0AEB4; margin-left:5px;}
+#data {width:331px; height:30px; background:url(../imagens/background_data.jpg) no-repeat; color:#FFF; float:left;}
+#data p {padding-top:6px; padding-left:6px;}
+#background {width:100%; height:329px;  position:absolute; }
+#logotipo {width:331px; height:160px; background:#CCCCCC; position:absolute; }
+#logotipo img {width:245px; height:75px; position:absolute; left:50%; top:50%; margin-left:-122.5px; margin-top:-37.5px;}
+#menu {width:770px; height:45px; line-height:45px; background:#101417; color:#FFF; position:absolute; right:0; top:344px; z-index:1;}
+#menu li {float:left; list-style:none; padding-left:30px;}
+#menu li a {color:#FFF; text-decoration:none;}
+#menu li a:hover {color:#F00}
+#brazao {width:110px; height:155px; position:absolute; right:20px; top:280px; z-index:5;}
+#conteudo {width:100%; background:#FFF; position:absolute; top:360px;}
+#colDir {width:230px; background:#FFF2F2; float:left;}
+#noticias ul.titulo {width:200px; padding-left:10px; padding-bottom:5px;}
+#noticias ul.titulo li {list-style:none; font-size:10px; font-weight:bold; padding-bottom:5px;}
+#noticias ul.descricao li {list-style:none; font-size:10px; font-weight:normal; border-bottom:1px dotted #CCC;}
+#noticias h2 {padding:10px;}
+#noticias h3 {width:190px; line-height:25px; background:#990000; color:#FFF; padding-left:10px; margin-left:10px;}
+#noticias ul.linkUtilidade {padding-bottom:15px;}
+#noticias ul.linkUtilidade li {list-style:none; background:url(../imagens/utilidadesList.jpg) no-repeat left; padding-left:7px; margin-left:10px; border-bottom:1px dotted #CCC; padding-bottom:4px; padding-top:4px; width:190px;}
+#noticias ul.linkUtilidade li a {text-decoration:none; color:#930; font-weight:bold;}
+#noticias ul.linkUtilidade li a:hover {color:#666;}
+#principal {width:740px; float:right; padding-top:50px; padding-right:15px;}
+#principal  div.conheca {width:430px; float:left;}
+#principal  div.conheca p {padding-bottom:18px;}
+#principal  div.conheca p.titulo {font-size:22px; color:#990000;}
+#principal  div.conheca p.titulo span {font-weight:bold;}
+#principal  div.conheca p.txt {line-height:20px;}
+#principal  div.conheca p.link a {text-decoration:none; color:#900; font-weight:bold;}
+#principal  div.servicosMini {width:290px; float:right;}
+#principal  div.servicosMini p.titulo {font-size:22px; color:#990000; font-weight:bold;}
+#principal  div.servicosMini div.mServ {padding-top:10px; }
+#principal  div.servicosMini div.mServ div.img { width:44px; height:39px; float:left;}
+#principal  div.servicosMini div.mServ div.txt {width:210px; float:left; padding-left:5px;}
+#principal div.servicosMini p.link {padding-top:10px;}
+#principal div.servicosMini p.link a {text-decoration:none; color:#900; font-weight:bold;}
+#linhaPrincipal {width:730px; height:30px; background:url(../imagens/linhaPrincipal.jpg) no-repeat;}
+#chamadas {width:530px; height:180px; background:url(../imagens/backgroundChamadas.jpg) no-repeat;float:left;}
+#chamadas div.missao {width:290px;}
+#chamadas div.missao p {line-height:15px; padding-left:20px;}
+#chamadas div.missao p.titulo {color:#990000; font-size:22px; padding-bottom:10px; padding-top:20px;}
+#chamadas div.missao p.titulo span {font-weight:bold; color:#990000;}
+#chamadas div.valores {width:170px; float:right;}
+#chamadas div.valores p.titulo {color:#990000; font-size:22px; padding-bottom:10px; padding-top:20px;}
+#chamadas div.valores p.titulo span {font-weight:bold; color:#999999;}
+#chamadas div.valores li {list-style:none; background:url(../imagens/listValores.png) no-repeat left; padding-left:10px;}
+#chamadasDois {width:205px; height:180px; background:url(../imagens/backgroundChamadasDois.jpg) no-repeat; float:left; position:relative;}
+#chamadasDois p {line-height:15px; padding-left:15px;}
+#chamadasDois p.titulo {color:#990000; font-size:16px; padding-bottom:10px; padding-top:20px;}
+#chamadasDois p.titulo span {font-weight:bold; color:#999999;}
+#chamadasDois div.telefones {font-size:8px; font-weight:bold;}
+#chamadasDois p.mail {position:absolute; bottom:15px;}
+#chamadasDois p.imagem {position:absolute; bottom:30px; right:20px;}
+#rodape {width:100%; height:50px; background:url(../imagens/backgroundRodape.jpg);}
+#base {width:1000px; margin:auto;}
+#base div.direitos {width:620px; float:left; padding-top:15px;}
+#base div.direitos p {color:#FFF; padding-left:17px;}
+#base div.direitos ul li {float:left; color:#FFF; list-style:none; background:url(../imagens/subMenuList.png) no-repeat left; padding-left:18px; padding-right:10px;}
+#base div.direitos ul li.sem {float:left; color:#FFF; list-style:none; background:none; padding-left:18px; padding-right:10px;}
+#base div#inobox {float:right; padding-top:12px; padding-right:20px;}
+#base div.direitos ul li a {text-decoration:none; color:#FFF;}
+
+#base div#inobox p {float:left; color:#FFF;}
+#base div#inobox p.txt {padding-top:5px; padding-right:5px; padding-left:5px;}
+#paginas { width:730px; float:left; padding-left:20px; padding-top:40px;}
+#paginas h1 {font-size:22px; color:#990000;}
+#paginas p.peqtxt {line-height:18px; padding-top:5px;}
+#paginas form {padding-top:15px;}
+#paginas div.campoMaior {width:680px;}
+#paginas div.campoMaior div.campoMenor {width:330px; float:left; padding-right:10px;}
+#paginas div.campoMaior div.campoMenor input {width:100%; line-height:30px; background:#E9E9E9; border:1px solid #CCCCCC; height:22px;}
+#paginas div.campoMaior div.campoMenor input:focus {background:#990000; color:#FFF;}
+#paginas input.camposTotais {width:670px; line-height:30px; background:#E9E9E9; border:1px solid #CCCCCC; height:22px; margin-top:5px;}
+#paginas input.camposTotais:focus {background:#990000; color:#FFF;}
+#paginas textarea:focus {background:#990000; color:#FFF;}
+#paginas textarea {width:670px; background:#E9E9E9; border:1px solid #CCCCCC; height:120px; margin-top:5px;}
+#paginas p.botao {padding-top:5px;}
+#paginas div.pgEmpresa {width:100%;}
+#paginas div.pgEmpresa p {padding-bottom:10px; line-height:22px;}
+#paginas div.pgEmpresa img.ladoI {width:233px; height:200px; float:right; }
+#paginas div.pgEmpresa div.meio {width:300px; padding-left:180px;}
+.txtEmrpesa {line-height:18px; padding-top:5px; padding-bottom:20px;}
+#pgNoticias {height:577px;}
+#pgNoticias div.separada {padding-top:20px; border-bottom:1px dotted #CCC; padding-bottom:10px; }
+#pgNoticias div.separada p.titulo {font-weight:bold;}
+#pgNoticias div.separada p.link {padding-top:10px;}
+#pgNoticias div.separada p.link a {text-decoration:none; color:#930; font-weight:bold;}
+#pgNoticias div.separada p.link a:hover {text-decoration:underline; color:#666;}
+#pgNoticias ul {padding-top:10px; padding-bottom:20px;}
+#pgNoticias li {float:left; list-style:none; padding-left:15px;}
+#exContato {width:100%; height:200px;}
+#exContato div.telDois {padding-top:5px; padding-bottom:15px; padding-left:10px;}
+#exContato p.imagemIcone {float:right; padding-bottom:10px;}
+#exContato p.mail {padding-bottom:10px; padding-left:10px;}
+#exContato p.link { padding-left:10px;}
+#exContato p.link a {text-decoration:none; color:#930; font-weight:bold;}
+#exContato p.link a:hover {text-decoration:underline; color:#666;}
+#internas h2 {font-size:16px; padding-top:15px; padding-bottom:10px;}
+#internas p {line-height:18px; padding-bottom:15px;}
+#internas p.voltar {float:right; width:250px; text-align:center; padding-top:20px;}
+#internas p.voltar a {text-decoration:none; font-weight:bold; color:#930;}
+#internas p.voltar a:hover {color:#666;}
+#enderecoMapa {float:left; padding-top:20px;}
+#enderecoMapa h3 {font-size:16px; padding-bottom:5px;}
+#mapa {width:425px; float:left; padding-right:20px; padding-top:20px;}
+#pgServicos {height:536px;}
+#pgServicos  div.ch_servico {width:360px; float:left; padding-top:20px;}
+#pgServicos  div.ch_servico div.imagem {width:135px; float:left; padding-right:10px;}
+#pgServicos  div.ch_servico h2 {font-size:13px;}
+.conteudoT {width:200px; float:left;}
+.conteudoT li {margin-left:13px; font-size:10px;}
+
+#pgServicos  div.ch_servicoMaior {padding-top:20px;}
+#pgServicos  div.ch_servicoMaior div.imagem {width:135px; float:left; padding-right:10px;}
+#pgServicos  div.ch_servicoMaior div.txts h3 {padding-bottom:10px;}
+#pgServicos  div.ch_servicoMaior div.txts li {margin-left:10px;}
+#pgServicos  div.ch_servicoMaior div.txts div.subTxt {width:200px; float:left;}
+#pgServicos  div.ch_servicoMaior div.txts div.subTxt li {padding-top:2px;}
+#emp {height:577px;}
